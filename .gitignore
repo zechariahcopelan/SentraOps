@@ -1,36 +1,22 @@
-# -----------------------------
-# 🔐 SECURITY + PRIVACY RULES
-# -----------------------------
-
 # Ignore everything by default
 *
 
-# -----------------------------
-# ✅ ALLOW ONLY THESE FILES
-# -----------------------------
-
+# Un-ignore config files
 !.gitignore
-!vite.config.ts
 !tailwind.config.ts
+!vite.config.ts
 
-# Allow src folder and specific safe files
-!src/
-!src/Home.tsx
-!src/About.tsx
-!src/Login.tsx
-
-# UI components (showcase use of shadcn/ui)
-!src/components/
-!src/components/ui/
-!src/components/ui/button.tsx
-!src/components/ui/input.tsx
-!src/components/ui/label.tsx
-
-# Shared libs/helpers
-!src/lib/
-!src/lib/**
-
-# Allow safe mock file (optional)
-!src/api.ts
-
+# Un-ignore frontend folder structure
+!frontend/
+!frontend/src/
+!frontend/src/pages/
+!frontend/src/pages/Login.tsx
+!frontend/src/pages/Home.tsx
+!frontend/src/pages/About.tsx
+!frontend/src/components/
+!frontend/src/components/ui/
+!frontend/src/components/ui/button.tsx
+!frontend/src/components/ui/input.tsx
+!frontend/src/components/ui/label.tsx
+!frontend/src/lib/
 
